@@ -1,0 +1,10 @@
+{
+  "levelName": "วิกฤตน้ำหนุนสะพานพุทธ",
+  "environment": "FLOODED",
+  "components": [
+    { "id": "batt_1", "type": "SOURCE", "voltage": 220, "resistance": 0.5 },
+    { "id": "wire_A", "type": "WIRE", "resistance": 10, "desc": "สายไฟแช่น้ำ ความต้านทานสุ่ม" },
+    { "id": "neon_1", "type": "LOAD", "maxVoltage": 250, "resistance": 100 }
+  ],
+  "objective": "ต่อไฟให้ป้ายร้านพวงมาลัยติด โดยห้ามให้กระแสเกิน 2.5A"
+}
